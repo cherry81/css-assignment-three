@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(211, 211, 211);
+  font-family: Ubuntu Mono;
+}
+.heading-one {
+  color: rgb(0, 0, 139);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+/* Fixed Header */
+.header {
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: rgb(194, 255, 255);
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+.links li a {
+  text-decoration: none;
+}
+.button {
+  margin: 5px;
+}
+/* end */
+
+/* Part C */
+/* Box Model and Layout */
+.box-model {
+  height: 150px;
+  width: 300px;
+  margin: 30px;
+  padding: 20px;
+  border: 5px dashed rgb(0, 0, 255);
+}
+
+/* 12 Flexbox  */
+.boxes {
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+
+.box1 {
+  background-color: rgb(146, 199, 245);
+}
+.box2 {
+  background-color: rgb(159, 248, 159);
+}
+.box3 {
+  background-color: rgb(216, 157, 243);
+}
+
+.flex-box {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+/*  14 Nav Links */
+.sticky-navbar {
+  background-color: aliceblue;
+  height: 50px;
+  position: sticky;
+}
+.nav-ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.nav-ul a {
+  text-decoration: none;
+}
+
+/* 15 Centered Box */
+.centered-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.inner-div {
+  height: 200px;
+  width: 200px;
+  background-color: aquamarine;
+  text-align: center;
+}
